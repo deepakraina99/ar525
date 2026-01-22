@@ -44,7 +44,6 @@ For each part, you are expected to:
 
 ![](sample_gif.gif)
 
-</p>
 - **Analysis report** including but not limited to:
    - Comparing Policy Iteration vs Value Iteration
    - Convergence speed (number of iterations)
