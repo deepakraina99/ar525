@@ -36,7 +36,7 @@ cd a2-ar525
 
 ## Task Description
 
-**Environment**: HoverAviary - A single drone must hover at target position `[0, 0, 1]`
+**Environment**: HoverAviary - A single drone must hover at target position `[x, y, z]`
 
 **State Space**: 3D position (x, y, z) relative to target, discretized into 10 bins per dimension
 
