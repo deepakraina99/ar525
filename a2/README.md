@@ -162,9 +162,7 @@ python evaluate_submission.py --student_file user_code.py --method td   # TD onl
 
 ## Visualization (GUI)
 
-This assignment is **tabular RL** (Q-table based), so it does not produce a `best_model.zip` like `learn.py`/`play.py` in SB3 workflows.
-
-To visualize hover behavior with the reference implementations, run:
+This assignment is **tabular RL** (Q-table based). To visualize hover behavior with the reference implementations, run:
 
 ```bash
 # Visualize Monte Carlo reference (opens PyBullet GUI)
@@ -181,24 +179,6 @@ Note: `user_code.py` runs with `gui=False` by default for faster grading/trainin
 - The drone should increasingly stabilize near `z = 1.0` as training progresses.
 - In `td_learning.py`, the GUI window may close and reopen once: this is expected because the script runs **Q-Learning first**, then resets and runs **SARSA**.
 - Console messages about threads/GL context shutdown/startup are normal PyBullet GUI lifecycle logs.
-
-### Create a GIF Demo from Visualization
-
-Yes, you can convert the GUI run into a GIF for the README.
-
-```bash
-# 1) Record your screen while running one visual command
-python td_learning.py
-
-# 2) Convert recorded video (e.g., demo.mp4) to a compact GIF
-ffmpeg -i demo.mp4 -vf "fps=12,scale=900:-1:flags=lanczos" rl_hover_demo.gif
-```
-
-Then add it to README:
-
-```markdown
-![RL Hover Demo](rl_hover_demo.gif)
-```
 
 ## Grading Rubric (Total: 100 points)
 
