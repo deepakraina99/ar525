@@ -50,10 +50,10 @@ cd a2-ar525
 
 The state is discretized into 10 bins per dimension. Below is a visual of the XY grid and the Z bins used by `discretize_state()`:
 
-![State Discretization](state_discretization.svg)
+![State Discretization](imgs/state_discretization.svg)
 
 
-![State Discretization Animation](state_discretization.gif)
+![State Discretization Animation](imgs/state_discretization.gif)
 
 ## Clarifications (to avoid confusion)
 
