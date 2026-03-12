@@ -23,14 +23,14 @@ pip install -e .
 
 # Then clone/use this assignment repo
 cd ..
-git clone https://github.com/sadbhavsingh16/a2-ar525.git
+git clone https://github.com/zsxacdvbbnm16/a2-ar525.git
 cd a2-ar525
 ```
 
 ### Option 2: Install via pip (if available)
 ```bash
 pip install gym-pybullet-drones
-git clone https://github.com/sadbhavsingh16/a2-ar525.git
+git clone https://github.com/zsxacdvbbnm16/a2-ar525.git
 cd a2-ar525
 ```
 
