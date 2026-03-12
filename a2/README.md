@@ -1,4 +1,4 @@
-﻿# Assignment: Drown hovering using Model-free control
+﻿# Assignment: Drone hovering using Model-free control
  The goal of this assignment is to implement **Monte Carlo Control** and **Q-Learning** algorithms to teach a drone to hover at target position `[x, y, z]`. Drone hovering is challenging because small action errors accumulate quickly and the drone can drift or oscillate. The drone must balance exploration vs. stability, learn from delayed rewards, and generalize across nearby states to hold a steady hover. The expected behaviour of drone is shown below:
 ![Drone Hover Objective Demo](imgs/assignment_gif.gif)
 
