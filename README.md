@@ -40,6 +40,11 @@ This repository contains course projects and assignments for AR 525, focusing on
 - **Environment**: 5x6 grid with UR5 robot and obstacles
 - **Deliverables**: Code implementation, simulation demo, analysis report
 
+### Assignment 2: Model-Free Control for Drone Hovering
+- **Objective**: Implement Monte Carlo Control and Q-Learning to stabilize a drone at a target hover position
+- **Environment**: PyBullet drone simulator with discretized 3D state and thrust actions
+- **Deliverables**: RL implementations, training/evaluation scripts, visualizations/analysis of learned policy
+
 
 ## Course Staff
 - **Instructor**: Dr. Deepak Raina
