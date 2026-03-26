@@ -2,10 +2,11 @@
 
 ## Overview
 
-In this assignment, you will train a simulated biped robot to **jump off a 1 m platform and land upright** using the **SAC (Soft Actor-Critic)** algorithm. The environment image is shown below:
+In this assignment, you will train a simulated biped robot to **jump off a 1 m platform and land upright** using the **SAC (Soft Actor-Critic)** algorithm. The environment image and expected output is shown below:
 ![biped_pybullet_env](biped_pybullet_env.png)
-<center>![sample](sample.gif)</center>
-
+<p align="center">
+  <img src="sample.gif" alt="animated" />
+</p>
 The robot spawns on top of a 1 m tall platform and must:
 1. **Crouch and leap** off the edge
 2. **Maintain an upright orientation** during flight
